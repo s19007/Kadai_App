@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>クイズ</title>
+</head>
+<body>
+<h1>クイズ</h1>
+<h2>問題</h2>
+<p>恒河砂の次の単位はどれ</p>
+<from th:method="post">
+    <input type="radio" name="main" value="a" checked="checked">阿僧祇（あそうぎ）
+    <input type="radio" name="main" value="b">那由他（なゆた）
+    <input type="radio" name="main" value="c">極（ごく）
+    <button type="submit">解答</button>
+</from>
+
+</body>
+</html>
